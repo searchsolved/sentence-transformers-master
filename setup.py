@@ -14,7 +14,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
-    url="https://github.com/searchsolved/sentence-transformers",
+    url="https://github.com/searchsolved/sentence-transformers-master",
     #download_url="https://github.com/searchsolved/sentence-transformers/archive/v2.1.1.zip",
     packages=find_packages(),
     install_requires=[
