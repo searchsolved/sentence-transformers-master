@@ -179,7 +179,7 @@ class SentenceTransformer(nn.Sequential):
         sentences_sorted = [sentences[idx] for idx in length_sorted_idx]
 
         for start_index in trange(0, len(sentences), batch_size, desc="Batches", disable=not show_progress_bar):
-            time.sleep(0.3)
+            time.sleep(0.5)
             sentences_batch = sentences_sorted[start_index:start_index + batch_size]
             features = self.tokenize(sentences_batch)
             features = batch_to_device(features, device)
