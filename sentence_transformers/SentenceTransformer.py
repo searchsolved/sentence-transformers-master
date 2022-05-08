@@ -16,7 +16,9 @@ from torch import nn, Tensor, device
 from torch.optim import Optimizer
 from torch.utils.data import DataLoader
 import torch.multiprocessing as mp
-from tqdm.autonotebook import trange
+#from tqdm.autonotebook import trange
+from stqdm.autonotebook import trange
+
 import math
 import queue
 import tempfile
